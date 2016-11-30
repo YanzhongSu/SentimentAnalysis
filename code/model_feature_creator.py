@@ -16,7 +16,7 @@ weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
 def create_feature_vector(company, raw_vector, finance_datatype, finance_n, sentiment_datatype, sentiment_n, day, target,volume):
 		date = raw_vector[0]
 		day_of_the_week = raw_vector[1]		
-
+		# test
 		if sentiment_n > 0:
 			if sentiment_datatype == 1:
 				feature_vector = raw_vector[2:len(raw_vector)-2]
